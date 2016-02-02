@@ -1,0 +1,3 @@
+The EAMIR Software Development kit allows users to build their own custom composition and performance applications for use with just about any control interface. This kit, associated with the EAMIR charity project (eamir.org) contains modular pieces of working code that, when strung together, quickly enable users to creative systems that focus on music education, composition, and performance.
+
+Included in this SDK are the Modal Object Library, a collection of objects for creating and working with diatonic modes and harmony within Max. 

@@ -1,0 +1,198 @@
+seven_note_chords, ;
+
+434334, major_M7_M9_P11_M13 1_in_major;
+343434, minor_m7_M9_P11_M13 2_in_major;
+343343, minor_m7_m9_P11_m13 3_in_major;
+434343, major_M7_M9_#11_M13 4_in_major;
+433434, major_m7_M9_P11_M13 5_in_major;
+343433, minor_m7_M9_P11_m13 6_in_major;
+334343, diminished_m7_m9_P11_m13 7_in_major;
+
+
+344333, minor_M7_M9_P11_m13 1_in_harmonic_minor;
+334344, diminished_m7_m9_P11_M13 2_in_harmonic_minor;
+443334, augmented_M7_M9_P11_M13 3_in_harmonic_minor;
+343443, minor_m7_M9_#11_M13 4_in_harmonic_minor;
+433343, major_m7_m9_P11_m13 5_in_harmonic_minor;
+434433, major_M7_#9_#11_M13 6_in_harmonic_minor;
+333434, diminished_dim7_m9_b11_m13 7_in_harmonic_minor;
+
+
+344334, minor_M7_M9_P11_M13 1_in_melodic_minor;
+343344, minor_m7_m9_P11_M13 2_in_melodic_minor;
+443343, augmented_M7_M9_#11_M13 3_in_melodic_minor;
+433443, major_m7_M9_#11_M13 4_in_melodic_minor;
+433433, major_m7_M9_P11_m13 5_in_melodic_minor;
+334433, diminished_m7_M9_P11_m13 6_in_melodic_minor;
+334334, diminished_m7_m9_b11_m13 7_in_melodic_minor;
+
+
+434333, major_M7_M9_P11_m13 1_in_harmonic_major;
+334434, diminished_m7_M9_P11_M13 2_in_harmonic_major;
+343334, minor_m7_m9_b11_m13 3_in_harmonic_major;
+344343, minor_M7_M9_#11_M13 4_in_harmonic_major;
+433344, major_m7_m9_P11_M13 5_in_harmonic_major;
+443433, augmented_M7_#9_#11_M13 6_in_harmonic_major;
+333443, diminished_dim7_m9_P11_m13 7_in_harmonic_major;
+
+
+
+six_note_chords, ;
+
+43433, major_M7_M9_P11 1_in_major;
+34343, minor_m7_M9_P11 2_in_major;
+34334, minor_m7_m9_P11 3_in_major;
+43434, major_M7_M9_#11 4_in_major;
+43343, major_m7_M9_P11 5_in_major;
+34343, minor_m7_M9_P11 6_in_major;
+33434, diminished_m7_m9_P11 7_in_major;
+
+
+34433, minor_M7_M9_P11 1_in_harmonic_minor;
+33434, diminished_m7_m9_P11 2_in_harmonic_minor;
+44333, augmented_M7_M9_P11 3_in_harmonic_minor;
+34344, minor_m7_M9_#11 4_in_harmonic_minor;
+43334, major_m7_m9_P11 5_in_harmonic_minor;
+43443, major_M7_#9_#11 6_in_harmonic_minor;
+33343, diminished_dim7_m9_b11 7_in_harmonic_minor;
+
+
+34433, minor_M7_M9_P11 1_in_melodic_minor;
+34334, minor_m7_m9_P11 2_in_melodic_minor;
+44334, augmented_M7_M9_#11 3_in_melodic_minor;
+43344, major_m7_M9_#11 4_in_melodic_minor;
+43343, major_m7_M9_P11 5_in_melodic_minor;
+33443, diminished_m7_M9_P11 6_in_melodic_minor;
+33433, diminished_m7_m9_b11 7_in_melodic_minor;
+
+
+43433, major_M7_M9_P11 1_in_harmonic_major;
+33443, diminished_m7_M9_P11 2_in_harmonic_major;
+34333, minor_m7_m9_b11 3_in_harmonic_major;
+34434, minor_M7_M9_#11 4_in_harmonic_major;
+43334, major_m7_m9_P11 5_in_harmonic_major;
+44343, augmented_M7_#9_#11 6_in_harmonic_major;
+33344, diminished_dim7_m9_P11 7_in_harmonic_major;
+
+
+
+
+
+five_note_chords, ;
+
+4343, major_M7_M9 1_in_major;
+3434, minor_m7_M9 2_in_major;
+3433, minor_m7_m9 3_in_major;
+4343, major_M7_M9 4_in_major;
+4334, major_m7_M9 5_in_major;
+3434, minor_m7_M9 6_in_major;
+3343, diminished_m7_m9 7_in_major;
+
+
+3443, minor_M7_M9 1_in_harmonic_minor;
+3343, diminished_m7_m9 2_in_harmonic_minor;
+4433, augmented_M7_M9 3_in_harmonic_minor;
+3434, minor_m7_M9 4_in_harmonic_minor;
+4333, major_m7_m9 5_in_harmonic_minor;
+4344, major_M7_#9 6_in_harmonic_minor;
+3334, diminished_dim7_m9 7_in_harmonic_minor;
+
+
+3443, minor_M7_M9 1_in_melodic_minor;
+3433, minor_m7_m9 2_in_melodic_minor;
+4433, augmented_M7_M9 3_in_melodic_minor;
+4334, major_m7_M9 4_in_melodic_minor;
+4334, major_m7_M9 5_in_melodic_minor;
+3344, diminished_m7_M9 6_in_melodic_minor;
+3343, diminished_m7_m9 7_in_melodic_minor;
+
+
+4343, major_M7_M9 1_in_harmonic_major;
+3344, diminished_m7_M9 2_in_harmonic_major;
+3433, minor_m7_m9 3_in_harmonic_major;
+3443, minor_M7_M9 4_in_harmonic_major;
+4333, major_m7_m9 5_in_harmonic_major;
+4434, augmented_M7_#9 6_in_harmonic_major;
+3334, diminished_dim7_m9 7_in_harmonic_major;
+
+
+
+
+
+four_note_chords, ;
+
+434, major_M7 1_in_major;
+343, minor_m7 2_in_major;
+343, minor_m7 3_in_major;
+434, major_M7 4_in_major;
+433, major_m7 5_in_major;
+343, minor_m7 6_in_major;
+334, diminished_m7 7_in_major;
+
+
+344, minor_M7 1_in_harmonic_minor;
+334, diminished_m7 2_in_harmonic_minor;
+443, augmented_M7 3_in_harmonic_minor;
+343, minor_m7 4_in_harmonic_minor;
+433, major_m7 5_in_harmonic_minor;
+434, major_M7 6_in_harmonic_minor;
+333, diminished_dim7 7_in_harmonic_minor;
+
+
+344, minor_M7 1_in_melodic_minor;
+343, minor_m7 2_in_melodic_minor;
+443, augmented_M7 3_in_melodic_minor;
+433, major_m7 4_in_melodic_minor;
+433, major_m7 5_in_melodic_minor;
+334, diminished_m7 6_in_melodic_minor;
+334, diminished_m7 7_in_melodic_minor;
+
+
+434, major_M7 1_in_harmonic_major;
+334, diminished_m7 2_in_harmonic_major;
+343, minor_m7 3_in_harmonic_major;
+344, minor_M7 4_in_harmonic_major;
+433, major_m7 5_in_harmonic_major;
+443, augmented_M7 6_in_harmonic_major;
+333, diminished_dim7 7_in_harmonic_major;
+
+
+
+
+
+three_note_chords, ;
+
+43, major 1_in_major;
+34, minor 2_in_major;
+34, minor 3_in_major;
+43, major 4_in_major;
+43, major 5_in_major;
+34, minor 6_in_major;
+33, diminished 7_in_major;
+
+
+34, minor 1_in_harmonic_minor;
+33, diminished 2_in_harmonic_minor;
+44, augmented 3_in_harmonic_minor;
+34, minor 4_in_harmonic_minor;
+43, major 5_in_harmonic_minor;
+43, major 6_in_harmonic_minor;
+33, diminished 7_in_harmonic_minor;
+
+
+34, minor 1_in_melodic_minor;
+34, minor 2_in_melodic_minor;
+44, augmented 3_in_melodic_minor;
+43, major 4_in_melodic_minor;
+43, major 5_in_melodic_minor;
+33, diminished 6_in_melodic_minor;
+33, diminished 7_in_melodic_minor;
+
+
+43, major 1_in_harmonic_major;
+33, diminished 2_in_harmonic_major;
+34, minor 3_in_harmonic_major;
+34, minor 4_in_harmonic_major;
+43, major 5_in_harmonic_major;
+44, augmented 6_in_harmonic_major;
+33, diminished 7_in_harmonic_major;

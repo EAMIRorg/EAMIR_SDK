@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "eamir_mol_triad[9]">
+	<slot number = "1">
+		<pattr name = "eamir_mol_triad" value = "0" />
+		<pattr name = "eamir_mol_triad[2]" value = "1" />
+		<pattr name = "eamir_mol_triad[3]" value = "1" />
+		<pattr name = "eamir_mol_triad[4]" value = "1" />
+		<pattr name = "eamir_mol_triad[5]" value = "0" />
+		<pattr name = "eamir_mol_triad[6]" value = "0" />
+		<pattr name = "eamir_mol_triad[7]" value = "0" />
+		<pattr name = "eamir_mol_triad[8]" value = "0" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "eamir_mol_triad" value = "0" />
+		<pattr name = "eamir_mol_triad[2]" value = "1" />
+		<pattr name = "eamir_mol_triad[3]" value = "0" />
+		<pattr name = "eamir_mol_triad[4]" value = "0" />
+		<pattr name = "eamir_mol_triad[5]" value = "0" />
+		<pattr name = "eamir_mol_triad[6]" value = "0" />
+		<pattr name = "eamir_mol_triad[7]" value = "0" />
+		<pattr name = "eamir_mol_triad[8]" value = "0" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "eamir_mol_triad" value = "0" />
+		<pattr name = "eamir_mol_triad[2]" value = "1" />
+		<pattr name = "eamir_mol_triad[3]" value = "1" />
+		<pattr name = "eamir_mol_triad[4]" value = "1" />
+		<pattr name = "eamir_mol_triad[5]" value = "1" />
+		<pattr name = "eamir_mol_triad[6]" value = "1" />
+		<pattr name = "eamir_mol_triad[7]" value = "0" />
+		<pattr name = "eamir_mol_triad[8]" value = "0" />
+	</slot>
+</pattrstorage>
+

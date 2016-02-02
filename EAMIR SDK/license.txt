@@ -1,0 +1,97 @@
+EAMIR License Agreement (http://www.eamir.org)
+
+Attribution-Noncommercial-Share Alike 3.0 Unported
+
+You are free:
+
+    to Share — to copy, distribute and transmit the work
+    to Remix — to adapt the work
+
+Under the following conditions:
+
+    Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+    What does "Attribute this work" mean?
+    The page you came from contained embedded licensing metadata, including how the creator wishes to be attributed for re-use. You can use the HTML here to cite the work. Doing so will also include metadata on your page so that others can find the original work as well.
+    Noncommercial — You may not use this work for commercial purposes. 
+    Share Alike — If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one. 
+
+With the understanding that:
+
+    Waiver — Any of the above conditions can be waived if you get permission from the copyright holder V.J. Manzo: vj@vjmanzo.com on behalf of the EAMIR community. 
+    Public Domain — Where the work or any of its elements is in the public domain under applicable law, that status is in no way affected by the license.
+    Other Rights — In no way are any of the following rights affected by the license:
+        Your fair dealing or fair use rights, or other applicable copyright exceptions and limitations;
+        The author's moral rights;
+        Rights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights.
+    Notice — For any reuse or distribution, you must make clear to others the license terms of this work: You must post the author's name (EAMIR) and website address (eamir.org) in the liner notes, program notes, credits, and/or other documentation associated with any program or performance involving this software/source code. It must include: "software name" (e.g. "Your application name", etc.) created with components of the EAMIR SDK (eamir.org). Copyright.
+
+
+ 
+
+The Software is provided by V.J. Manzo (hereinafter referred to as the "AUTHOR"), and NOT may be distributed. You may not sell the software, nor may you take a fee or commission for providing the software to another person, nor may you include the software with or as part of other software that is sold for a fee without prior written permission from the Author.
+
+ 
+
+Source code for the software, if provided, can be re-used for educational or non-commercial purposes provided the Author is credited both in the product source and in the final product.
+
+The source code for this software may not be re-used for commercial purposes
+
+without negotiating and obtaining a commercial licensing agreement from the Author.
+
+For the case, that this software voids any patents, the user has to delete the program
+
+and any copies by himself or on request of the Author.
+
+ 
+
+Currently, this software needs to be registered with the author, Vincent Joseph Manzo, to be
+
+used. Use of this program is illegal if you are not registered. Please note, that
+
+currently this program can only be used for research and experimental purposes and
+
+not for commercial use of any kind. If this program is used without registration or
+
+after the erasure request, the user is responsible for the illegal use of the program
+
+and agrees that any legal actions against the author will be redirected to himself (the
+
+user) without contradiction.
+
+ 
+
+Disclaimer of Warranty on Software
+
+The software is provided "AS IS" and without warranty of any kind. The Author
+
+expressly disclaims all warranties, express or implied, including, but not limited to,
+
+the fitness for a particular purpose. The Author does not warrant that the software
+
+will be uninterrupted or error-free, or that defects in the software will be corrected.
+
+Furthermore, The Author does not warrant or make any representations regarding
+
+the use or the results of the use of the software in terms of their correctness,
+
+accuracy, reliability, or otherwise. No oral or written information or advice given by
+
+the Author shall create a warranty or in any way increase the scope of this warranty.
+
+Should the software prove defective, you (and not the author) assume the entire cost
+
+of all necessary servicing, repair or correction of the software, or the computer
+
+system with which it is used.
+
+ 
+
+Limitation of Liability
+
+Under no circumstances, including negligence, shall the Author be liable for any
+
+incidental, special, or consequential damages that result from the use or inability to
+
+use the software, even if the Author has been advised of the possibility of such
+
+damages.

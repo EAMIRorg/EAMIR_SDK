@@ -1,0 +1,10 @@
+For harmonic minor modes, the doubling occurs on:
+
+Tonic is doubled at #1
+Mediant is doubled at #3
+Dominant is doubled at #4
+Leading tone is doubled at #6 and b7 
+
+
+Note: in some instances, doubling the leading tone causes notes be displaced from their natural octave ordering. For example, C (pc 0) in E-major should become B (pc 11), but this will cause all incoming C pitch classes to be displaced from their natural octave; in other words, a large skip will be heard if a chromatic scale is played back with this filtering. In these instances, the pc is doubled to the nearest pc that will avoid such displacement.
+

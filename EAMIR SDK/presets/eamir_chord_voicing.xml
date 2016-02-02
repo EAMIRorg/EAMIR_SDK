@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "eamir_chord_voicing[2]">
+	<slot number = "1">
+		<pattr name = "eamir_chord_voicing" value = "0" />
+		<patcher name = "root_note_voicings">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "4" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[1]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[2]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[3]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[4]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[5]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[6]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "eamir_chord_voicing" value = "0" />
+		<patcher name = "root_note_voicings">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "7" />
+			<pattr name = "eamir_chord_voicing[1]" value = "0" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[1]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[2]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[3]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "6" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[4]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "7" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[5]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "7" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+		<patcher name = "root_note_voicings[6]">
+			<pattr name = "eamir_chord_voicing[10]" value = "0" />
+			<pattr name = "eamir_chord_voicing[12]" value = "0" />
+			<pattr name = "eamir_chord_voicing[1]" value = "7" />
+			<pattr name = "eamir_chord_voicing[2]" value = "0" />
+			<pattr name = "eamir_chord_voicing[3]" value = "0" />
+			<pattr name = "eamir_chord_voicing[4]" value = "0" />
+			<pattr name = "eamir_chord_voicing[5]" value = "0" />
+			<pattr name = "eamir_chord_voicing[6]" value = "0" />
+			<pattr name = "eamir_chord_voicing[7]" value = "0" />
+			<pattr name = "eamir_chord_voicing[8]" value = "0" />
+			<pattr name = "eamir_chord_voicing[9]" value = "0" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

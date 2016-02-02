@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "eamir_pc_match_chord_list[18]">
+	<slot number = "1">
+		<pattr name = "eamir_pc_match_chord_list[1]" value = "0" />
+		<pattr name = "eamir_pc_match_chord_list" value = "0" />
+		<pattr name = "eamir_pc_match_chord_list[10]" value = "159" />
+		<pattr name = "eamir_pc_match_chord_list[11]" value = "166" />
+		<pattr name = "eamir_pc_match_chord_list[12]" value = "158" />
+		<pattr name = "eamir_pc_match_chord_list[13]" value = "165" />
+		<pattr name = "eamir_pc_match_chord_list[14]" value = "157" />
+		<pattr name = "eamir_pc_match_chord_list[15]" value = "164" />
+		<pattr name = "eamir_pc_match_chord_list[16]" value = "156" />
+		<pattr name = "eamir_pc_match_chord_list[17]" value = "163" />
+		<pattr name = "eamir_pc_match_chord_list[21]" value = "169" />
+		<pattr name = "eamir_pc_match_chord_list[22]" value = "161" />
+		<pattr name = "eamir_pc_match_chord_list[23]" value = "168" />
+		<pattr name = "eamir_pc_match_chord_list[24]" value = "160" />
+		<pattr name = "eamir_pc_match_chord_list[25]" value = "167" />
+		<pattr name = "eamir_pc_match_chord_list[3]" value = "1" />
+		<pattr name = "eamir_pc_match_chord_list[4]" value = "2" />
+		<pattr name = "eamir_pc_match_chord_list[5]" value = "5" />
+		<pattr name = "eamir_pc_match_chord_list[6]" value = "4" />
+		<pattr name = "eamir_pc_match_chord_list[7]" value = "3" />
+		<pattr name = "eamir_pc_match_chord_list[8]" value = "155" />
+		<pattr name = "eamir_pc_match_chord_list[9]" value = "6" />
+	</slot>
+</pattrstorage>
+

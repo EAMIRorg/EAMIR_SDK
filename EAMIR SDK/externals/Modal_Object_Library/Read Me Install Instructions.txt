@@ -1,0 +1,29 @@
+The Modal Object Library
+by V.J. Manzo
+
+
+The Modal Object Library is a collection of objects for Max/MSP that control modality created by V.J. Manzo.
+
+To install, copy this folder into the Max/MSP file path. For added support copy the file, "Modal_Object_Library" into the folder "...\Cycling '74\MaxMSP\patches\extras". Then select Modal Object Library from "extras" when Max is running or simply type "modal_object_library" into a new object box. 
+
+vj@vjmanzo.com | http://www.vjmanzo.com/mol | www.vjmanzo.com/cv
+
+(c) 2006
+
+
+
+**Revision History**
+6-24-09 - complete rewrite of modal_change and modal_triad. MOL 3.0 is no longer Max 4 compatible in exchange for more UI functionality. 
+
+4-15-09 - revised URL on each help file. Fixed a few typos. Made fix for an error message that occurs when building apps on some machines. 
+
+3-27-09 - rewrote all objects to allow multiple instances to be used. Also removed dependency on third party objects like the RTC Library. 
+
+3-19-09 - added the modal_fuzzharm object and the modal_pc_match object to the library. 
+
+3-10-09 - added augmented sixth chords and Neopolitan chords to the modal triad object. Also added scripts to allow the user to select which notes will come to the outlets.
+
+12-20-2008 - completely reworked the coll filtering mechanism in the modal_change object. Scale filtering schemes can now be viewed and modified at "...\aux_files\p_data\filtering"
+
+
+

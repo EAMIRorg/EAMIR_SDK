@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "eamir_MIDI[6]">
+	<slot number = "1">
+		<pattr name = "eamir_MIDI" value = "0" />
+		<pattr name = "eamir_MIDI[2]" value = "0" />
+		<pattr name = "eamir_MIDI[3]" value = "0" />
+		<pattr name = "eamir_MIDI[4]" value = "1" />
+		<pattr name = "eamir_MIDI[5]" value = "36" />
+		<pattr name = "eamr_MIDI" value = "48" />
+	</slot>
+</pattrstorage>
+
