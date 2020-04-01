@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -98,14 +98,16 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 3,
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-548",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.057007, 164.0, 181.942993, 26.0 ],
+					"patching_rect" : [ 91.0, 153.0, 112.942993, 57.0 ],
 					"style" : "",
 					"text" : "connect when building"
 				}
@@ -165,11 +167,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 67.0, 231.0, 100.0 ],
+					"patching_rect" : [ 297.0, 67.0, 192.0, 114.0 ],
 					"style" : "",
 					"text" : "if you connect the gate outlet to this message, the quit message will receive a closebang and Max will close completely when you close this patch if you are using a Mac. This is unecessary on Windows. Mac users should click the 0 message now. "
 				}
@@ -234,11 +236,11 @@
 						"audiosupport" : 1,
 						"bundleidentifier" : "com.eamir.myprogram",
 						"cantclosetoplevelpatchers" : 0,
-						"cefsupport" : 1,
-						"copysupport" : 1,
+						"cefsupport" : 0,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 0,
-						"gensupport" : 1,
+						"gensupport" : 0,
 						"midisupport" : 1,
 						"noloadbangdefeating" : 0,
 						"overdrive" : 0,
@@ -459,34 +461,8 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "EAMIR",
-				"newobj" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
-				}
-,
-				"default" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
-						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-,
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ]
-				}
-,
 				"umenu" : 				{
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -497,8 +473,34 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
+				}
+,
+				"default" : 				{
+					"fontface" : [ 0 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
+						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+,
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ]
+				}
+,
+				"newobj" : 				{
+					"fontface" : [ 0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -506,21 +508,20 @@
 			}
 , 			{
 				"name" : "VJ Classic",
-				"ezdac~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
-				"ezadc~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"default" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -532,11 +533,11 @@
 					}
 ,
 					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ]
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"umenu" : 				{
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -546,7 +547,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -555,7 +557,6 @@
 , 			{
 				"name" : "VJ Classic-1",
 				"default" : 				{
-					"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -564,7 +565,8 @@
 						"angle" : 0,
 						"proportion" : 0.39
 					}
-
+,
+					"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -572,21 +574,20 @@
 			}
 , 			{
 				"name" : "VJ Classic-1-1",
-				"ezdac~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+				"ezadc~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
-				"ezadc~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+				"ezdac~" : 				{
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"default" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -598,11 +599,11 @@
 					}
 ,
 					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ]
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"umenu" : 				{
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -612,7 +613,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

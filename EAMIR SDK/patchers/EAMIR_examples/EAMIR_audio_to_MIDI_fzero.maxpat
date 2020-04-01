@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 459.0, 166.0, 754.0, 826.0 ],
+		"rect" : [ 193.0, 82.0, 775.0, 772.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
@@ -547,48 +547,48 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "EAMIR_Audio_input.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_logo.png",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_pitch_to_MIDI_fzero.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_Audio_output.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_gain_module.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_info.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_MIDI_out.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

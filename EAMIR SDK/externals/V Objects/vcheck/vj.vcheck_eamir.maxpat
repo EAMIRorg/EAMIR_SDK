@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,19 @@
 		"title" : "EAMIR SDK Version Checker",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 344.0, 10.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
@@ -46,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 17.0, 60.0, 22.0 ],
+					"patching_rect" : [ 13.0, 10.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -75,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 64.0, 247.0, 23.0 ],
+					"patching_rect" : [ 13.0, 74.0, 247.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -2.0, -2.0, 247.0, 39.0 ],
 					"rendermode" : 0,
@@ -85,6 +98,16 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 353.5, 75.0, 326.5, 75.0, 326.5, 29.0, 22.5, 29.0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
@@ -104,7 +127,7 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

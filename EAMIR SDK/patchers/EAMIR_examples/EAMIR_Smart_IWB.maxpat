@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -2528,8 +2528,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3116,8 +3116,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3240,8 +3240,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4238,8 +4238,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4439,8 +4439,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5413,8 +5413,8 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 7,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "" ],
 									"patching_rect" : [ 437.0, 504.0, 100.0, 20.0 ],
 									"style" : "",
 									"text" : "midiformat"
@@ -7267,16 +7267,19 @@
 		"styles" : [ 			{
 				"name" : "EAMIR",
 				"newobj" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
 				}
 ,
 				"default" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"fontface" : [ 0 ],
 					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -7287,13 +7290,12 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -7303,9 +7305,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",

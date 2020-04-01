@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -99,7 +99,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
-					"items" : [ "disis.aka.wiiremote", ",", "Modal_Object_Library", ",", "tk.wii20070713bin", ",", "tristan pitch", ",", "V Objects", ",", "wacom-1.1test4", ",", "wacom_4.0" ],
+					"items" : [ "_the Modal Object Library.maxpat", ",", "_the V Objects Library.maxpat", ",", "disis.aka.wiiremote", ",", "License Info.txt", ",", "Modal_Object_Library", ",", "tk.wii20070713bin", ",", "tristan pitch", ",", "V Objects", ",", "wacom-1.1test4", ",", "wacom_4.0" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -333,11 +333,18 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "EAMIR",
+				"newobj" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
+				}
+,
 				"default" : 				{
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
 					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -348,13 +355,6 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
-				}
-,
-				"newobj" : 				{
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ],
 					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
 				}
 ,
@@ -380,8 +380,8 @@
 				"name" : "MMJforM",
 				"default" : 				{
 					"patchlinecolor" : [ 0.32549, 0.345098, 0.372549, 0.9 ],
-					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
@@ -395,8 +395,19 @@
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ]
 				}
 ,
-				"number" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+				"kslider" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"slider" : 				{
+					"color" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"elementcolor" : [ 0.317141, 0.341132, 0.336206, 1.0 ],
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+				}
+,
+				"button" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
 					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
@@ -405,20 +416,9 @@
 					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
-				"slider" : 				{
-					"elementcolor" : [ 0.317141, 0.341132, 0.336206, 1.0 ],
-					"color" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+				"number" : 				{
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
-				"button" : 				{
-					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
-				"kslider" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"message" : 				{
@@ -450,6 +450,7 @@
 				"message" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -459,15 +460,15 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -477,8 +478,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"comment" : 				{
@@ -506,6 +506,7 @@
 				"message" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -515,15 +516,15 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -533,8 +534,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"comment" : 				{
@@ -562,6 +562,7 @@
 				"message" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -571,15 +572,15 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"umenu" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
+					"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -589,8 +590,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
 				"comment" : 				{

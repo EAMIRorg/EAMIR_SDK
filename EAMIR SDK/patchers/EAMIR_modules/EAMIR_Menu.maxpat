@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 483.0, 348.0, 420.0, 397.0 ],
+		"rect" : [ 473.0, 323.0, 420.0, 397.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 1,
@@ -40,21 +40,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"id" : "obj-7",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 189.333374, 87.0, 93.0 ],
-					"style" : "",
-					"text" : "change the author website to reflect your homepage"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -63,13 +48,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 203.0, 239.0, 406.0, 239.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -196,7 +181,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 259.0, 318.333435, 115.0, 22.0 ],
+					"patching_rect" : [ 259.0, 318.333435, 133.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -206,7 +191,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p about_the_author"
+					"text" : "p about_the_developer"
 				}
 
 			}
@@ -222,8 +207,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -309,7 +294,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 180.000061, 300.0, 29.0 ],
 									"style" : "",
-									"text" : ";\rmax launch_browser http://www.clearbluemedia.org"
+									"text" : ";\rmax launch_browser http://www.eamir.org"
 								}
 
 							}
@@ -553,21 +538,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-544",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 76.942993, 109.5, 95.0, 22.0 ],
-					"style" : "",
-					"text" : "Menu Items"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -577,7 +547,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 11.942993, 110.5, 59.0, 20.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "EAMIR...", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Options", ";", "#X", "item", 5, 1, "Audio", "Settings", ";", "#X", "item", 5, 2, "About", "the", "developer...", ";", "#X", "item", 5, 3, "Status", "Window", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Other", "resources...", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "EAMIR...", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Options", ";", "#X", "item", 5, 1, "Audio", "Settings", ";", "#X", "item", 5, 2, "About", "the", "Developer...", ";", "#X", "item", 5, 3, "Status", "Window", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "More", "EAMIR", "Apps...", ";", "#X", "end", ";" ],
 					"style" : "",
 					"text" : "menubar 5"
 				}
@@ -610,22 +580,6 @@
 					"patching_rect" : [ 11.942993, 198.833374, 35.0, 20.0 ],
 					"style" : "",
 					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-548",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 24.471497, 37.5, 205.942993, 26.0 ],
-					"style" : "",
-					"text" : "connect when building"
 				}
 
 			}
@@ -678,6 +632,55 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.442993, 37.5, 26.0, 31.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bubble" : 1,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-548",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 24.471497, 39.5, 205.942993, 26.0 ],
+					"style" : "",
+					"text" : "connect when building"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-7",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 269.0, 189.333374, 87.0, 93.0 ],
+					"style" : "",
+					"text" : "change the author website to reflect your homepage"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-544",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 76.942993, 109.5, 95.0, 22.0 ],
+					"style" : "",
+					"text" : "Menu Items"
 				}
 
 			}
@@ -808,7 +811,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "eamir.appmenuabout.maxpat",
-				"bootpath" : "~/Desktop",
+				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_support/p_data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -852,17 +855,13 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "EAMIR",
-				"newobj" : 				{
-					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
-				}
-,
 				"default" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"fontface" : [ 0 ],
 					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -873,13 +872,19 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ]
+				}
+,
+				"newobj" : 				{
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ]
+					"fontface" : [ 0 ],
+					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
+					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
 				}
 ,
 				"umenu" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -889,9 +894,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -899,21 +902,15 @@
 			}
 , 			{
 				"name" : "VJ Classic",
-				"ezdac~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
 				"ezadc~" : 				{
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"default" : 				{
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -924,12 +921,17 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ]
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -939,7 +941,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -948,7 +951,6 @@
 , 			{
 				"name" : "VJ Classic-1",
 				"default" : 				{
-					"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -957,7 +959,8 @@
 						"angle" : 0,
 						"proportion" : 0.39
 					}
-
+,
+					"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -965,21 +968,15 @@
 			}
 , 			{
 				"name" : "VJ Classic-1-1",
-				"ezdac~" : 				{
-					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
-				}
-,
 				"ezadc~" : 				{
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"default" : 				{
 					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -990,12 +987,17 @@
 						"autogradient" : 0
 					}
 ,
-					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.264013, 0.273808, 0.299802, 1.0 ]
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
+					"selectioncolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+				}
+,
+				"ezdac~" : 				{
+					"elementcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
-					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -1005,7 +1007,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"color" : [ 0.682353, 0.705882, 0.776471, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

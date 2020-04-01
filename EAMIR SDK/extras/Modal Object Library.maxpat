@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 441.0, 321.0, 455.0, 564.0 ],
+		"rect" : [ 356.0, 79.0, 455.0, 564.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
@@ -40,6 +40,21 @@
 		"subpatcher_template" : "",
 		"title" : "the Modal Object Library by V.J. Manzo || vjmanzo.com/mol",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 265.5, 72.0, 58.5, 20.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.8, 0.54902, 0.54902, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
@@ -196,7 +211,7 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "vj.vcheck_mol.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 128.0, 93.0, 203.0, 25.0 ],
@@ -384,8 +399,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -673,8 +688,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -858,8 +873,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -937,8 +952,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 2,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1482,7 +1497,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 246.0, 610.0, 60.0, 19.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 441, 321, 896, 885, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 356, 79, 811, 643, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
 				}
@@ -1502,8 +1517,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2058,8 +2073,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2219,8 +2234,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2643,6 +2658,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"midpoints" : [ 275.0, 104.0, 260.25, 104.0, 260.25, 87.0, 137.5, 87.0 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -2800,27 +2825,21 @@
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "MMJforM",
-				"kslider" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-,
 				"slider" : 				{
 					"color" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"elementcolor" : [ 0.317141, 0.341132, 0.336206, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.317141, 0.341132, 0.336206, 1.0 ]
 				}
 ,
-				"button" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+				"kslider" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"default" : 				{
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"patchlinecolor" : [ 0.32549, 0.345098, 0.372549, 0.9 ],
-					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
@@ -2833,14 +2852,20 @@
 
 				}
 ,
+				"button" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.682032, 0.698052, 0.748716, 1.0 ]
+				}
+,
 				"newobj" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"number" : 				{
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 				}
 ,
 				"message" : 				{
