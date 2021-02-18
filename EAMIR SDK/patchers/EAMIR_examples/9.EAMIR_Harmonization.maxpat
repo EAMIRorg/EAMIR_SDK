@@ -2,17 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
+			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 50.0, 78.0, 942.0, 912.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 50.0, 56.0, 942.0, 912.0 ],
 		"openrect" : [ 50.0, 50.0, 0.0, 0.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +38,7 @@
 		"tags" : "",
 		"style" : "EAMIR",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 606.0, 272.0, 167.0, 33.0 ],
-					"style" : "",
 					"text" : "Harmonization"
 				}
 
@@ -65,13 +64,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
+							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 25.0, 69.0, 708.0, 264.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -99,6 +99,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -109,7 +110,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 558.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "8"
 								}
 
@@ -124,7 +124,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 489.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "7"
 								}
 
@@ -139,7 +138,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 413.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "6"
 								}
 
@@ -154,7 +152,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 344.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "5"
 								}
 
@@ -169,7 +166,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 268.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "4"
 								}
 
@@ -184,7 +180,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 199.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "3"
 								}
 
@@ -199,7 +194,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 119.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "2"
 								}
 
@@ -214,7 +208,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 118.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "1"
 								}
 
@@ -230,7 +223,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 610.0, 118.0, 63.0, 18.0 ],
-									"style" : "",
 									"text" : "r mol_chord"
 								}
 
@@ -244,7 +236,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 563.0, 100.0, 87.0, 20.0 ],
-									"style" : "",
 									"text" : "1 Chord (8va)"
 								}
 
@@ -258,7 +249,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 489.0, 100.0, 65.0, 20.0 ],
-									"style" : "",
 									"text" : "7 Chord"
 								}
 
@@ -272,7 +262,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 408.0, 100.0, 65.0, 20.0 ],
-									"style" : "",
 									"text" : "6 Chord"
 								}
 
@@ -286,7 +275,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 343.0, 100.0, 65.0, 20.0 ],
-									"style" : "",
 									"text" : "5 Chord"
 								}
 
@@ -300,7 +288,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 274.0, 100.0, 65.0, 20.0 ],
-									"style" : "",
 									"text" : "4 Chord"
 								}
 
@@ -314,7 +301,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 199.0, 100.0, 65.0, 20.0 ],
-									"style" : "",
 									"text" : "3 Chord"
 								}
 
@@ -328,7 +314,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 118.0, 100.0, 65.0, 20.0 ],
-									"style" : "",
 									"text" : "2 Chord"
 								}
 
@@ -342,7 +327,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 53.0, 100.0, 65.0, 20.0 ],
-									"style" : "",
 									"text" : "1 Chord"
 								}
 
@@ -351,11 +335,11 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-22",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 333.888885, 196.0, 25.0, 25.0 ],
-									"style" : ""
+									"patching_rect" : [ 333.888885000000016, 196.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -363,8 +347,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-146", 0 ]
 								}
 
@@ -372,8 +354,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-25", 0 ]
 								}
 
@@ -381,8 +361,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -390,8 +368,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -399,8 +375,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -408,8 +382,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -417,8 +389,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -426,8 +396,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -435,8 +403,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -449,11 +415,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p some_chords"
 				}
 
@@ -467,7 +431,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 16.0, 138.0, 33.0 ],
-					"style" : "",
 					"text" : "MIDI Input"
 				}
 
@@ -486,7 +449,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "int", "int", "", "int", "int" ],
+					"outlettype" : [ "int", "int", "", "", "int", "int" ],
 					"patching_rect" : [ 9.0, 15.0, 444.0, 126.0 ],
 					"varname" : "EAMIR_MIDI_in",
 					"viewvisibility" : 1
@@ -523,7 +486,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 723.0, 389.0, 65.0, 18.0 ],
-					"style" : "",
 					"text" : "double-click"
 				}
 
@@ -539,13 +501,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
+							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 121.0, 95.0, 670.0, 327.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -573,6 +536,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -586,7 +550,6 @@
 									"patching_rect" : [ 67.0, 30.0, 276.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 1.0, 479.0, 24.0 ],
-									"style" : "",
 									"text" : "Available Chords - - just type them into a message box"
 								}
 
@@ -602,7 +565,6 @@
 									"patching_rect" : [ 780.0, 339.0, 90.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 374.0, 29.0, 90.0, 20.0 ],
-									"style" : "",
 									"text" : "Tonicizations"
 								}
 
@@ -647,7 +609,6 @@
 									"patching_rect" : [ 746.0, 459.0, 65.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 595.0, 103.0, 65.0, 18.0 ],
-									"style" : "",
 									"text" : "s mol_chord"
 								}
 
@@ -673,7 +634,6 @@
 									"patching_rect" : [ 748.0, 404.0, 51.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 370.0, 82.0, 51.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -691,7 +651,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 420.0, 74.0, 170.0, 33.0 ],
-									"style" : "",
 									"text" : "produces a iv borrowed chord tonicization"
 								}
 
@@ -717,7 +676,6 @@
 									"patching_rect" : [ 748.0, 365.0, 51.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 371.0, 50.0, 51.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -743,7 +701,6 @@
 									"patching_rect" : [ 748.0, 434.0, 56.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 597.0, 77.0, 56.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -760,7 +717,6 @@
 									"patching_rect" : [ 800.0, 360.0, 102.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 423.0, 47.0, 197.0, 20.0 ],
-									"style" : "",
 									"text" : "produces a V7 chord tonicization"
 								}
 
@@ -779,8 +735,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 365.0, 29.0, 294.0, 79.0 ],
 									"proportion" : 0.39,
-									"rounded" : 30,
-									"style" : ""
+									"rounded" : 30
 								}
 
 							}
@@ -795,7 +750,6 @@
 									"patching_rect" : [ 561.0, 368.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 205.0, 33.0, 150.0, 20.0 ],
-									"style" : "",
 									"text" : "Formatting Altered Chords"
 								}
 
@@ -822,7 +776,6 @@
 									"patching_rect" : [ 627.0, 416.0, 46.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 271.0, 81.0, 46.0, 18.0 ],
-									"style" : "",
 									"text" : "Cb5#9",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -850,7 +803,6 @@
 									"patching_rect" : [ 571.0, 416.0, 32.5, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 215.0, 81.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "5#1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -878,7 +830,6 @@
 									"patching_rect" : [ 627.0, 390.0, 82.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 271.0, 55.0, 82.0, 18.0 ],
-									"style" : "",
 									"text" : "Gdom7b9#11",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -906,7 +857,6 @@
 									"patching_rect" : [ 571.0, 390.0, 32.5, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 215.0, 55.0, 32.5, 18.0 ],
-									"style" : "",
 									"text" : "1b1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -924,7 +874,6 @@
 									"patching_rect" : [ 571.0, 438.0, 65.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 215.0, 103.0, 65.0, 18.0 ],
-									"style" : "",
 									"text" : "s mol_chord"
 								}
 
@@ -941,7 +890,6 @@
 									"patching_rect" : [ 466.0, 526.0, 65.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 237.0, 178.0, 65.0, 18.0 ],
-									"style" : "",
 									"text" : "s mol_chord"
 								}
 
@@ -968,7 +916,6 @@
 									"patching_rect" : [ 523.0, 502.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 294.0, 154.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "8",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -996,7 +943,6 @@
 									"patching_rect" : [ 523.0, 480.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 294.0, 132.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "4",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1024,7 +970,6 @@
 									"patching_rect" : [ 504.0, 502.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 275.0, 154.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "7",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1052,7 +997,6 @@
 									"patching_rect" : [ 485.0, 502.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 256.0, 154.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "6",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1080,7 +1024,6 @@
 									"patching_rect" : [ 465.0, 502.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 236.0, 154.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "5",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1108,7 +1051,6 @@
 									"patching_rect" : [ 504.0, 480.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 275.0, 132.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "3",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1136,7 +1078,6 @@
 									"patching_rect" : [ 485.0, 480.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 256.0, 132.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "2",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1164,7 +1105,6 @@
 									"patching_rect" : [ 465.0, 480.0, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 236.0, 132.0, 18.0, 18.0 ],
-									"style" : "",
 									"text" : "1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1185,7 +1125,6 @@
 									"patching_rect" : [ 550.0, 481.0, 20.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 321.0, 133.0, 20.0, 20.0 ],
-									"style" : "",
 									"triangle" : 0,
 									"triscale" : 0.9
 								}
@@ -1202,7 +1141,6 @@
 									"patching_rect" : [ 436.0, 461.0, 206.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 207.0, 113.0, 206.0, 20.0 ],
-									"style" : "",
 									"text" : "Diatonic Chord Functions (numbers)"
 								}
 
@@ -1219,7 +1157,6 @@
 									"patching_rect" : [ 826.0, 805.0, 65.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 116.0, 306.0, 65.0, 18.0 ],
-									"style" : "",
 									"text" : "s mol_chord"
 								}
 
@@ -1245,7 +1182,6 @@
 									"patching_rect" : [ 812.0, 788.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 102.0, 289.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1271,7 +1207,6 @@
 									"patching_rect" : [ 812.0, 765.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 102.0, 266.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1297,7 +1232,6 @@
 									"patching_rect" : [ 812.0, 739.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 102.0, 240.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1323,7 +1257,6 @@
 									"patching_rect" : [ 812.0, 715.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 102.0, 216.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1341,7 +1274,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 15.0, 184.0, 156.0, 33.0 ],
-									"style" : "",
 									"text" : "Case sensitive chord qualities (with pitch letters):"
 								}
 
@@ -1357,7 +1289,6 @@
 									"patching_rect" : [ 742.0, 788.0, 112.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 32.0, 289.0, 112.0, 20.0 ],
-									"style" : "",
 									"text" : "Augmented"
 								}
 
@@ -1373,7 +1304,6 @@
 									"patching_rect" : [ 742.0, 767.0, 113.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 32.0, 268.0, 113.0, 20.0 ],
-									"style" : "",
 									"text" : "Diminished"
 								}
 
@@ -1389,7 +1319,6 @@
 									"patching_rect" : [ 773.0, 741.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 63.0, 242.0, 46.0, 20.0 ],
-									"style" : "",
 									"text" : "Minor"
 								}
 
@@ -1405,7 +1334,6 @@
 									"patching_rect" : [ 773.0, 718.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 63.0, 219.0, 46.0, 20.0 ],
-									"style" : "",
 									"text" : "Major"
 								}
 
@@ -1422,7 +1350,6 @@
 									"patching_rect" : [ 634.0, 803.0, 67.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 120.0, 161.0, 67.0, 18.0 ],
-									"style" : "",
 									"text" : "s mol_chord"
 								}
 
@@ -1448,7 +1375,6 @@
 									"patching_rect" : [ 620.0, 780.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 106.0, 138.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1474,7 +1400,6 @@
 									"patching_rect" : [ 620.0, 759.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 106.0, 117.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1500,7 +1425,6 @@
 									"patching_rect" : [ 620.0, 738.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 106.0, 96.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1526,7 +1450,6 @@
 									"patching_rect" : [ 620.0, 715.0, 46.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 106.0, 73.0, 46.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1544,7 +1467,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 9.0, 40.0, 192.0, 33.0 ],
-									"style" : "",
 									"text" : "Case sensitive chord qualities (Roman numeral chord functions):"
 								}
 
@@ -1560,7 +1482,6 @@
 									"patching_rect" : [ 547.0, 783.0, 112.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 33.0, 141.0, 112.0, 20.0 ],
-									"style" : "",
 									"text" : "Augmented"
 								}
 
@@ -1576,7 +1497,6 @@
 									"patching_rect" : [ 547.0, 762.0, 113.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 33.0, 120.0, 113.0, 20.0 ],
-									"style" : "",
 									"text" : "Diminished"
 								}
 
@@ -1592,7 +1512,6 @@
 									"patching_rect" : [ 582.0, 740.0, 111.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 68.0, 98.0, 111.0, 20.0 ],
-									"style" : "",
 									"text" : "Minor"
 								}
 
@@ -1608,7 +1527,6 @@
 									"patching_rect" : [ 582.0, 717.0, 111.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 68.0, 75.0, 111.0, 20.0 ],
-									"style" : "",
 									"text" : "Major"
 								}
 
@@ -1625,7 +1543,6 @@
 									"patching_rect" : [ 652.0, 636.0, 65.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 423.0, 288.0, 65.0, 18.0 ],
-									"style" : "",
 									"text" : "s mol_chord"
 								}
 
@@ -1643,7 +1560,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 483.0, 267.0, 157.0, 47.0 ],
-									"style" : "",
 									"text" : "builds a French Sixth chord (in root position) or tonicize another chord with an N 6th"
 								}
 
@@ -1669,7 +1585,6 @@
 									"patching_rect" : [ 654.0, 623.0, 57.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 425.0, 275.0, 57.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1687,7 +1602,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 483.0, 216.0, 174.0, 47.0 ],
-									"style" : "",
 									"text" : "builds a German Sixth chord (in root position) or tonicize another chord with an N 6th"
 								}
 
@@ -1705,7 +1619,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 483.0, 167.0, 170.0, 47.0 ],
-									"style" : "",
 									"text" : "builds an Italian Sixth chord (in root position) or tonicize another chord with an N 6th"
 								}
 
@@ -1731,7 +1644,6 @@
 									"patching_rect" : [ 654.0, 574.0, 57.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 425.0, 226.0, 57.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1757,7 +1669,6 @@
 									"patching_rect" : [ 654.0, 522.0, 57.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 425.0, 174.0, 57.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1775,7 +1686,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 483.0, 118.0, 179.0, 47.0 ],
-									"style" : "",
 									"text" : "builds a Neopolitan Sixth chord (in root position) or tonicize another chord with an N 6th"
 								}
 
@@ -1801,7 +1711,6 @@
 									"patching_rect" : [ 654.0, 477.0, 57.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 425.0, 129.0, 57.0, 20.0 ],
-									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1819,7 +1728,6 @@
 									"presentation" : 1,
 									"presentation_linecount" : 10,
 									"presentation_rect" : [ 204.0, 176.0, 206.0, 141.0 ],
-									"style" : "",
 									"text" : "Chords qualities (major, minor, augmented, diminished) are derived from the chord function of each number. For example, in C major \"4\" will give an F Major chord. In C minor, F will give an F minor chord because of the function of chord 4 in the selected mode. The 7th, 9th, 11th, and 13th are also inferred by the selected mode."
 								}
 
@@ -1838,8 +1746,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 200.0, 31.0, 163.0, 77.0 ],
 									"proportion" : 0.39,
-									"rounded" : 30,
-									"style" : ""
+									"rounded" : 30
 								}
 
 							}
@@ -1857,8 +1764,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 199.0, 110.0, 212.0, 212.0 ],
 									"proportion" : 0.39,
-									"rounded" : 30,
-									"style" : ""
+									"rounded" : 30
 								}
 
 							}
@@ -1876,8 +1782,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 177.0, 185.0, 141.0 ],
 									"proportion" : 0.39,
-									"rounded" : 30,
-									"style" : ""
+									"rounded" : 30
 								}
 
 							}
@@ -1895,8 +1800,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 9.0, 35.0, 187.0, 139.0 ],
 									"proportion" : 0.39,
-									"rounded" : 30,
-									"style" : ""
+									"rounded" : 30
 								}
 
 							}
@@ -1914,8 +1818,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 416.0, 111.0, 243.0, 209.0 ],
 									"proportion" : 0.39,
-									"rounded" : 30,
-									"style" : ""
+									"rounded" : 30
 								}
 
 							}
@@ -1923,7 +1826,6 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-108", 0 ]
 								}
@@ -1932,7 +1834,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-164", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-165", 0 ]
 								}
@@ -1941,7 +1842,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-164", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-166", 0 ]
 								}
@@ -1950,7 +1850,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-164", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-168", 0 ]
 								}
@@ -1959,7 +1858,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-164", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-169", 0 ]
 								}
@@ -1968,7 +1866,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-141", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-17", 1 ]
 								}
@@ -1977,7 +1874,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-141", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-20", 1 ]
 								}
@@ -1986,7 +1882,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-141", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-43", 1 ]
 								}
@@ -1995,7 +1890,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-141", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-45", 1 ]
 								}
@@ -2004,7 +1898,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-144", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-56", 1 ]
 								}
@@ -2013,7 +1906,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-144", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-57", 1 ]
 								}
@@ -2022,7 +1914,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-144", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-58", 1 ]
 								}
@@ -2031,7 +1922,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-144", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-59", 1 ]
 								}
@@ -2040,7 +1930,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-142", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-61", 1 ]
 								}
@@ -2049,7 +1938,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-142", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-62", 1 ]
 								}
@@ -2058,7 +1946,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-142", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-63", 1 ]
 								}
@@ -2067,7 +1954,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-142", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-64", 1 ]
 								}
@@ -2076,7 +1962,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-146", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-66", 1 ]
 								}
@@ -2085,7 +1970,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-146", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-72", 1 ]
 								}
@@ -2094,7 +1978,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-146", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-75", 1 ]
 								}
@@ -2103,7 +1986,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-86", 0 ]
 								}
@@ -2112,7 +1994,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-91", 0 ]
 								}
@@ -2121,7 +2002,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-92", 0 ]
 								}
@@ -2130,7 +2010,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-93", 0 ]
 								}
@@ -2139,7 +2018,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-94", 0 ]
 								}
@@ -2148,7 +2026,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-95", 0 ]
 								}
@@ -2157,7 +2034,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-96", 0 ]
 								}
@@ -2166,7 +2042,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-97", 0 ]
 								}
@@ -2180,11 +2055,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p all_available_chords"
 				}
 
@@ -2199,7 +2072,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 634.0, 609.0, 248.0, 69.0 ],
-					"style" : "",
 					"text" : "note that this patch has a fixed velocity of 100 going to the MIDI output. sending the message \"50\" will change the velocity for all new chords."
 				}
 
@@ -2215,7 +2087,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 208.0, 632.0, 32.5, 22.0 ],
-					"style" : "",
 					"text" : "50"
 				}
 
@@ -2231,7 +2102,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 106.0, 630.0, 85.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 100"
 				}
 
@@ -2245,7 +2115,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.0, 630.0, 63.0, 20.0 ],
-					"style" : "",
 					"text" : "Velocity"
 				}
 
@@ -2260,7 +2129,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 536.0, 529.0, 92.0, 60.0 ],
-					"style" : "",
 					"text" : "Chord Voicing"
 				}
 
@@ -2296,7 +2164,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.0, 430.0, 143.0, 60.0 ],
-					"style" : "",
 					"text" : "Chord Generation"
 				}
 
@@ -2310,7 +2177,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.0, 373.0, 181.0, 20.0 ],
-					"style" : "",
 					"text" : "any chord message goes here"
 				}
 
@@ -2322,8 +2188,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 494.0, 628.0, 20.0, 20.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 494.0, 628.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -2336,7 +2202,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 514.0, 628.0, 106.0, 20.0 ],
-					"style" : "",
 					"text" : "Release Sustain "
 				}
 
@@ -2350,7 +2215,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.0, 635.0, 61.0, 20.0 ],
-					"style" : "",
 					"text" : "Pitch"
 				}
 
@@ -2365,7 +2229,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 419.0, 675.0, 87.0, 60.0 ],
-					"style" : "",
 					"text" : "MIDI Output"
 				}
 
@@ -2440,7 +2303,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 634.0, 553.0, 242.0, 53.0 ],
-					"style" : "",
 					"text" : "to change the voicings from the default settings, double click on one of the note voicing icons. "
 				}
 
@@ -2455,7 +2317,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 476.0, 88.0, 240.0, 38.0 ],
-					"style" : "",
 					"text" : "this patch contains everything you need to harmonize notes with chords"
 				}
 
@@ -2471,7 +2332,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 476.0, 22.0, 241.0, 69.0 ],
-					"style" : "",
 					"text" : "Harmonization Basics",
 					"textcolor" : [ 0.211765, 0.027451, 0.431373, 1.0 ]
 				}
@@ -2481,8 +2341,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2490,7 +2348,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
@@ -2499,9 +2356,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 6 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 461.0, 499.0, 452.214286, 499.0 ],
+					"midpoints" : [ 461.0, 499.0, 452.214285714285722, 499.0 ],
 					"source" : [ "obj-14", 6 ]
 				}
 
@@ -2509,9 +2364,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 5 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 387.25, 499.0, 379.928571, 499.0 ],
+					"midpoints" : [ 387.25, 499.0, 379.928571428571445, 499.0 ],
 					"source" : [ "obj-14", 5 ]
 				}
 
@@ -2519,9 +2372,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 313.5, 499.0, 307.642857, 499.0 ],
+					"midpoints" : [ 313.5, 499.0, 307.642857142857167, 499.0 ],
 					"source" : [ "obj-14", 4 ]
 				}
 
@@ -2529,9 +2380,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 239.75, 499.0, 235.357143, 499.0 ],
+					"midpoints" : [ 239.75, 499.0, 235.357142857142861, 499.0 ],
 					"source" : [ "obj-14", 3 ]
 				}
 
@@ -2539,9 +2388,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 166.0, 499.0, 163.071429, 499.0 ],
+					"midpoints" : [ 166.0, 499.0, 163.071428571428584, 499.0 ],
 					"source" : [ "obj-14", 2 ]
 				}
 
@@ -2549,9 +2396,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 92.25, 499.0, 90.785714, 499.0 ],
+					"midpoints" : [ 92.25, 499.0, 90.785714285714292, 499.0 ],
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -2559,8 +2404,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 18.5, 499.0, 18.5, 499.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -2569,8 +2412,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 534.75, 647.5, 503.5, 647.5 ],
 					"source" : [ "obj-14", 7 ]
 				}
@@ -2579,8 +2420,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 503.5, 651.0, 503.5, 651.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -2589,9 +2428,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 781.071429, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 781.071428571428555, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 34 ]
 				}
 
@@ -2599,9 +2436,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 758.642857, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 758.64285714285711, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 33 ]
 				}
 
@@ -2609,9 +2444,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 736.214286, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 736.214285714285666, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 32 ]
 				}
 
@@ -2619,9 +2452,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 713.785714, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 713.785714285714334, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 31 ]
 				}
 
@@ -2629,9 +2460,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 691.357143, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 691.35714285714289, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 30 ]
 				}
 
@@ -2639,9 +2468,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 668.928571, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 668.928571428571445, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 29 ]
 				}
 
@@ -2649,8 +2476,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 646.5, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 28 ]
 				}
@@ -2659,9 +2484,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 624.071429, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 624.071428571428555, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 27 ]
 				}
 
@@ -2669,9 +2492,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 601.642857, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 601.64285714285711, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 26 ]
 				}
 
@@ -2679,9 +2500,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 579.214286, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 579.214285714285666, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 25 ]
 				}
 
@@ -2689,9 +2508,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 556.785714, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 556.785714285714334, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 24 ]
 				}
 
@@ -2699,9 +2516,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 534.357143, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 534.35714285714289, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 23 ]
 				}
 
@@ -2709,9 +2524,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 511.928571, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 511.928571428571445, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 22 ]
 				}
 
@@ -2719,8 +2532,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 489.5, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 21 ]
 				}
@@ -2729,9 +2540,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 467.071429, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 467.071428571428555, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 20 ]
 				}
 
@@ -2739,9 +2548,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 444.642857, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 444.642857142857167, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 19 ]
 				}
 
@@ -2749,9 +2556,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 422.214286, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 422.214285714285722, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 18 ]
 				}
 
@@ -2759,9 +2564,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 399.785714, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 399.785714285714278, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 17 ]
 				}
 
@@ -2769,9 +2572,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 377.357143, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 377.357142857142833, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 16 ]
 				}
 
@@ -2779,9 +2580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 354.928571, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 354.928571428571445, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 15 ]
 				}
 
@@ -2789,8 +2588,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 332.5, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 14 ]
 				}
@@ -2799,9 +2596,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 310.071429, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 310.071428571428555, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 13 ]
 				}
 
@@ -2809,9 +2604,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 287.642857, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 287.642857142857167, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 12 ]
 				}
 
@@ -2819,9 +2612,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 265.214286, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 265.214285714285722, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 11 ]
 				}
 
@@ -2829,9 +2620,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 242.785714, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 242.785714285714278, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 10 ]
 				}
 
@@ -2839,9 +2628,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 220.357143, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 220.357142857142861, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 9 ]
 				}
 
@@ -2849,9 +2636,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 197.928571, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 197.928571428571416, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 8 ]
 				}
 
@@ -2859,8 +2644,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 175.5, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 7 ]
 				}
@@ -2869,9 +2652,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 153.071429, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 153.071428571428584, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 6 ]
 				}
 
@@ -2879,9 +2660,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 130.642857, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 130.642857142857139, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 5 ]
 				}
 
@@ -2889,9 +2668,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 108.214286, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 108.214285714285708, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 4 ]
 				}
 
@@ -2899,9 +2676,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 85.785714, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 85.785714285714292, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 3 ]
 				}
 
@@ -2909,9 +2684,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 63.357143, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 63.357142857142854, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 2 ]
 				}
 
@@ -2919,9 +2692,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 40.928571, 351.0, 18.5, 351.0 ],
+					"midpoints" : [ 40.928571428571431, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -2929,8 +2700,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 18.5, 351.0, 18.5, 351.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
@@ -2939,8 +2708,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 103.5, 147.0, 411.0, 147.0 ],
 					"source" : [ "obj-31", 1 ]
 				}
@@ -2949,8 +2716,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -2958,8 +2723,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 637.5, 415.0, 622.0, 415.0, 622.0, 352.0, 18.5, 352.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
@@ -2968,7 +2731,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"midpoints" : [ 217.5, 652.0, 139.75, 652.0 ],
 					"source" : [ "obj-4", 0 ]
@@ -2978,73 +2740,78 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "EAMIR_info.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_logo.png",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers",
-				"type" : "PNG ",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers",
+				"patcherrelativepath" : "..",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_chord_generation.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_MIDI_out.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_chord_voicing.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_pcmatch.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modal_pc_match.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/Modal_Object_Library/modal_pc_match/modal_pc_match_1.1",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/Modal_Object_Library/modal_pc_match/modal_pc_match_1.1",
+				"patcherrelativepath" : "../../externals/Modal_Object_Library/modal_pc_match/modal_pc_match_1.1",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "modal_pc_match_core.pat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/Modal_Object_Library/aux_files/p_data",
-				"type" : "maxb",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "modal_dpc_match.pat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/Modal_Object_Library/aux_files/p_data",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/Modal_Object_Library/aux_files/p_data",
+				"patcherrelativepath" : "../../externals/Modal_Object_Library/aux_files/p_data",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modal_degree_getter.pat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/externals/Modal_Object_Library/aux_files/p_data",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/externals/Modal_Object_Library/aux_files/p_data",
+				"patcherrelativepath" : "../../externals/Modal_Object_Library/aux_files/p_data",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_pc_match_messages.txt",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_support/p_data/pc_match",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_support/p_data/pc_match",
+				"patcherrelativepath" : "../EAMIR_support/p_data/pc_match",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EAMIR_MIDI_in.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"bootpath" : "~/Documents/Max 8/Packages/EAMIR SDK/patchers/EAMIR_modules",
+				"patcherrelativepath" : "../EAMIR_modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3062,15 +2829,17 @@
 				"name" : "EAMIR",
 				"newobj" : 				{
 					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
-					"fontface" : [ 0 ],
 					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgcolor" : [ 0.93025, 0.756547, 1.0, 0.25 ]
 				}
 ,
 				"default" : 				{
 					"accentcolor" : [ 0.466667, 0.254902, 0.607843, 1.0 ],
 					"elementcolor" : [ 0.376471, 0.384314, 0.4, 0.39 ],
-					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
+					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.850253, 0.837059, 0.878431, 1.0 ],
@@ -3081,13 +2850,13 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
-					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"color" : [ 0.8, 0.4, 1.0, 1.0 ],
 					"bgcolor" : [ 0.929412, 0.756863, 1.0, 1.0 ]
 				}
 ,
 				"umenu" : 				{
+					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.701961, 0.415686, 0.886275, 0.37 ],
@@ -3097,15 +2866,15 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 0 ],
-					"textcolor_inverse" : [ 0.231373, 0.121569, 0.305882, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}
 
 }
